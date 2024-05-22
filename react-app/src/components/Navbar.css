@@ -1,0 +1,11 @@
+
+body{
+    background: #e9e3e3;
+}
+ul{
+    display: flex;
+    
+}
+li{
+    padding: 34px;
+}
