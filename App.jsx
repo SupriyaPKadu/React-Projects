@@ -1,18 +1,12 @@
 import { useState } from 'react'
-import Hooks from './components/Hooks'
-import UseEffect from './components/UseEffect'
-import UseCallBack from './components/_UseCallBack'
-import UseRef from './components/UseRef'
-
+import Error_API from './components/Error_API'
 
 function App() {
-  
+  const [count, setCount] = useState(0)
+
   return (
     <>
-      {/* <Hooks/> */}
-      {/* <UseEffect/> */}
-      {/* <UseCallBack/> */}
-      <UseRef/>
+      <Error_API/>
     </>
   )
 }
